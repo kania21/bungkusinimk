@@ -3,10 +3,12 @@
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, 
+initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <title>BUNGKUS.IN</title>
   <link rel="shortcut icon" href="{{url('temp/nasi.png')}}">
@@ -209,7 +211,7 @@ Navigation Bar Section
     </div>
   </div> 
   <hr class="soften"/>	
-  <table class="table table-condensed table-bordered">
+  <table class="table table-responsive table-condensed table-hover">
     <thead>
      <tr>
       <th>No. Pesanan</th>

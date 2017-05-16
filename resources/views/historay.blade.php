@@ -4,9 +4,11 @@
 <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, 
+initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>BUNGKUS.IN</title>
     <link rel="shortcut icon" href="{{url('temp/nasi.png')}}">
@@ -16,9 +18,14 @@
     <link href="temp/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for this template 
     <link href="temp/css/1-col-portfolio.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+-->
     <!-- Temporary navbar container fix -->
     <style>
         .navbar-toggler {
@@ -206,6 +213,7 @@
             <section class="content">
                 <h1>History Pemesanan</h1><br>
                 <div class="pull-right">
+                <h5>*Difilter berdasarkan</h5>
                     <div class="btn-group text-center">
                       <button type="button" class="btn btn-warning btn-filter" data-target="proses">Dalam Proses</button>
                       <button type="button" class="btn btn-success btn-filter" data-target="selesai">Sudah Selesai</button>
@@ -224,7 +232,7 @@
                         </div>
                     </div><br>
                     <div class="container center">
-                        <table class="table table-filter center">
+                        <table class="table table-filter center table-responsive table-striped table-condensed table-hover">
                             <tbody>
                                 <tr data-status="selesai">
                                     <td>
@@ -377,6 +385,8 @@
 <script src="temp/vendor/jquery/jquery.min.js"></script>
 <script src="temp/vendor/tether/tether.min.js"></script>
 <script src="temp/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
 <script type="text/JavaScript">
     // $(document).ready(function () {
 
