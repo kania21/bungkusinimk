@@ -54,7 +54,7 @@
                             <a class="nav-link" href="{{url('/history')}}">History Pesanan</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="{{url('topup')}}">Rp 50.000</a>
+                            <a class="nav-link" href="{{url('topup')}}">BungPay : Rp 50.000</a>
                         </li>
                         <div class="nav-item active">
                             <input type="text" class="form-control" placeholder="Cari Merchant.."><i class="glyphicon glyphicon-search"></i>
@@ -81,21 +81,72 @@
                
         </head>
         <body>
-        <!-- <div class="container">
-            <div class="row">
-                <div class ="col-md-1">
-                    <a class="btn btn-warning"></a>
-                </div>
-                <div class ="col-md-1">
-                    
-                </div>
-            </div>
-        </div> -->
+        
+
+ 
+        
         <br>
 
-            <h1 class="my-4">PILIH MERCHANT</h1>
+            <div class="row">
+                <a class="btn btn-warning">
+                 <img src="{{url('temp/bestseller.png')}}" style="width:30px;height: 30px;">Best Seller</a><br>
+            </div><br>
+            <div class="row">
+                 <div class="col-xs-6 col-md-3">
+                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/1.jpg')}}" style="width:100px;height:80px;" alt="">
+                 </div>  
+                 <div class="col-xs-6 col-md-3">
+                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/2.jpg')}}" style="width:100px;height:80px;" alt="">
+                 </div>
+                 <div class="col-xs-6 col-md-3">
+                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/3.jpg')}}" style="width:100px;height:80px;" alt="">
+                 </div>    
+            </div> 
+            <div class="row"> 
+                 <div class="col-md-3 col-md-offset-3">
+                 <a class="btn btn-default" style="text-align: right;"><img src="{{url('temp/next.png')}}" style="width:20px;height:20px;"> </a> 
+                 </div>
+            </div>   
+          <hr class="soften">
+
+          <div class="row">
+                <a class="btn btn-warning">
+                 <img src="{{url('temp/budget.png')}}" style="width:30px;height: 30px;">Budget</a><br>
+            </div><br>
+            <div class="row">
+                 <div class="col-xs-6 col-md-3">
+                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/1.jpg')}}" style="width:100px;height:80px;" alt="">
+                 </div>  
+                 <div class="col-xs-6 col-md-3">
+                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/2.jpg')}}" style="width:100px;height:80px;" alt="">
+                 </div>
+                 <div class="col-xs-6 col-md-3">
+                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/3.jpg')}}" style="width:100px;height:80px;" alt="">
+                 </div>        
+            </div>   
+
+            <hr class="soften">
+            <div class="row">
+                <a class="btn btn-warning">
+                 <img src="{{url('temp/24.png')}}" style="width:30px;height: 30px;">24 Jam</a><br>
+            </div><br>
+            <div class="row">
+                 <div class="col-xs-6 col-md-3">
+                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/1.jpg')}}" style="width:100px;height:80px;" alt="">
+                 </div>  
+                 <div class="col-xs-6 col-md-3">
+                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/2.jpg')}}" style="width:100px;height:80px;" alt="">
+                 </div>
+                 <div class="col-xs-6 col-md-3">
+                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/3.jpg')}}" style="width:100px;height:80px;" alt="">
+                 </div>        
+            </div>   
 
             
+            <hr class="soften">
+
+
+            <h1 class="my-4">SEMUA MERCHANT</h1>    
    
 
 
@@ -113,9 +164,9 @@
                     color: red;
                 }
             </style>
-            <h3>SEGO NJAMOER</h3>
-            <h7>Jl. Gebang Wetan No. 2B<br>Gebang Putih, Sukolilo<br>Surabaya<br></h7>
-            <h8 style="font-weight: bold">Buka Pukul 08.00 - 22.00</h8><br><br>
+            <h3><img src="{{url('temp/segologo.png')}}" style="width:30px;height:30px;">SEGO NJAMOER</h3>
+            <h7><img src="{{url('temp/loc.png')}}" style="width:20px;height:20px;"> Jl. Gebang Wetan No. 2B, Gebang Putih, Sukolilo Surabaya<br></h7>
+            <h8 style="font-weight: bold"><img src="{{url('temp/time.png')}}" style="width:20px;height:20px;"> 08.00 - 22.00</h8><br><br>
             <a class="btn btn-primary" href="{{url('/menu/2')}}">Lihat Menu</a>
         </div>
     </div>
@@ -129,9 +180,9 @@
             <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/2.jpg')}}" style="width:404px;height:228px;" alt="">
         </div>
         <div class="col-md-5">
-            <h3>PENTOL GILAAA</h3>
-            <h7>Jl. Raya Rungkut Madya No.23<br>Rungkut Kidul, Rungkut<br>Surabaya<br></h7>
-            <h8 style="font-weight: bold">Buka Pukul 08.00 - 22.00</h8><br><br>
+            <h3><img src="{{url('temp/pentollogo.png')}}" style="width:30px;height:30px;">PENTOL GILAAA</h3>
+            <h7><img src="{{url('temp/loc.png')}}" style="width:20px;height:20px;">Jl. Raya Rungkut Madya No.23, Rungkut Kidul, Rungkut,Surabaya<br></h7>
+            <h8 style="font-weight: bold"><img src="{{url('temp/time.png')}}" style="width:20px;height:20px;"> 08.00 - 22.00</h8><br><br>
             <a class="btn btn-primary" id=1 href="{{url('/menu/2')}}">Lihat Menu</a>
         </div>
     </div>
@@ -145,9 +196,9 @@
             <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/3.jpg')}}" style="width:404px;height:228px;" alt="">                
         </div>
         <div class="col-md-5">
-            <h3>AYAM GEPREK</h3>
-            <h7>Jl. Dharmawangsa No.115<br>Kertajaya, Gubeng<br>Surabaya<br></h7>
-            <h8 style="font-weight: bold">Buka Pukul 11.00 - 22.00</h8><br>
+            <h3><img src="{{url('temp/ayamlogo.png')}}" style="width:30px;height:30px;">AYAM GEPREK</h3>
+            <h7><img src="{{url('temp/loc.png')}}" style="width:20px;height:20px;">Jl. Dharmawangsa No.115, Kertajaya, Gubeng, Surabaya<br></h7>
+            <h8 style="font-weight: bold"><img src="{{url('temp/time.png')}}" style="width:20px;height:20px;"> 11.00 - 22.00</h8><br>
             <h8 style="font-weight: bold; color: red">Tutup!</h8><br><br>
             <a class="btn btn-danger" href="#">Lihat Menu</a>
         </div>
@@ -163,9 +214,9 @@
             <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/4.jpg')}}" style="width:404px;height:228px;" alt="">                
         </div>
         <div class="col-md-5">
-            <h3>CHICKEN POK-POK</h3>
-            <h7>Jl. Basuki Rahmat No. 8-12<br> Tunjungan PLaza I Food Court<br> Surabaya<br></h7>
-            <h8 style="font-weight: bold">Buka Pukul 11.00 - 21.30</h8><br><br>
+            <h3><img src="{{url('temp/poklogo.png')}}" style="width:30px;height:30px;">CHICKEN POK-POK</h3>
+            <h7><img src="{{url('temp/loc.png')}}" style="width:20px;height:20px;">Jl. Basuki Rahmat No. 8-12, Tunjungan PLaza I Food Court, Surabaya<br></h7>
+            <h8 style="font-weight: bold"><img src="{{url('temp/time.png')}}" style="width:20px;height:20px;"> 11.00 - 21.30</h8><br><br>
             <a class="btn btn-primary" href="{{url('/menu/4')}}">Lihat Menu</a>
         </div>
     </div>
@@ -188,9 +239,11 @@
             </footer>
 
             <!-- Bootstrap core JavaScript -->
+            
             <script src="temp/vendor/jquery/jquery.min.js"></script>
             <script src="temp/vendor/tether/tether.min.js"></script>
             <script src="temp/vendor/bootstrap/js/bootstrap.min.js"></script>
+            
 
         </body>
 
