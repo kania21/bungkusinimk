@@ -155,7 +155,7 @@
                             <a class="nav-link" href="{{url('/history')}}">History Pesanan</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="{{url('/topup')}}">Rp 50.000</a>
+                            <a class="nav-link" href="{{url('/topup')}}">BungPay : Rp 50.000</a>
                         </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>

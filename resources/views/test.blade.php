@@ -56,10 +56,7 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="{{url('topup')}}">BungPay : Rp 50.000</a>
                         </li>
-                        <div class="nav-item active">
-                            <input type="text" class="form-control" placeholder="Cari Merchant.."><i class="glyphicon glyphicon-search"></i>
-                            
-                        </div>
+                        
                     <!-- <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li> -->

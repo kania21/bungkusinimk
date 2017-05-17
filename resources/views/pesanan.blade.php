@@ -53,7 +53,7 @@
                         <a class="nav-link" href="{{url('/history')}}">Pesanan</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Rp 28.000</a>
+                        <a class="nav-link" href="#">BungPay : Rp 28.000</a>
                     <li>
                 </ul>
             </div>
