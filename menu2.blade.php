@@ -119,11 +119,7 @@
                 </div>
             </div>
 
-            
-
-
-            <hr>
-
+        <hr>
         <br>
 
         <div class="container">
