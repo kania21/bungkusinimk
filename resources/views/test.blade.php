@@ -74,16 +74,28 @@
         <!-- Page Heading -->
         <div class="navbar-brand">
             <ul class="nav">
-                <!-- <h1 class="my-4">PILIH MERCHANT</h1> -->
+                
+                     </ul>
+    </div>
+   <!-- <h1 class="my-4">PILIH MERCHANT</h1> -->
                
         </head>
         <body>
+        <!-- <div class="container">
+            <div class="row">
+                <div class ="col-md-1">
+                    <a class="btn btn-warning"></a>
+                </div>
+                <div class ="col-md-1">
+                    
+                </div>
+            </div>
+        </div> -->
+        <br>
 
             <h1 class="my-4">PILIH MERCHANT</h1>
 
             
-        </ul>
-    </div>
    
 
 

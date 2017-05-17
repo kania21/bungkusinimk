@@ -36,4 +36,10 @@ class MerchantController extends Controller
      public function merchantmenu(){
         return view('menubaru');
     }
+    public function dashmerch(){
+        return view('dashmerch');
+    }
+    public function tambahmenu(){
+        return view('tambahmenu');
+    }
 }

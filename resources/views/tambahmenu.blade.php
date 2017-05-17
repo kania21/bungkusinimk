@@ -67,7 +67,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-7">
-                <h3>Edit Menu</h3>
+                <h3>Tambah Menu</h3>
             </div>
         </div>
         <hr>
@@ -110,8 +110,7 @@
                     </div>
                 </div><br>
                 <hr><br>
-              <a href="{{url('/dashmerch')}}" class="btn btn-primary"> Edit </a>
-              <a href="{{url('/dashmerch')}}" class="btn btn-danger"> Delete </a>
+              <a href="{{url('/addmenu')}}" class="btn btn-primary"> Tambah </a>
             </div>
     </form>
   </body>

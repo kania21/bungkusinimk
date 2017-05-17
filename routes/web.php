@@ -27,3 +27,6 @@ route:: get('/menumer','MerchantController@merchantmenu');
 route:: get('/topup','UserController@topup');
 route:: get('/transfer','UserController@transfer');
 route:: get('/pulsa','UserController@pulsa');
+route:: get('/dashmerch','MerchantController@dashmerch');
+route:: get('/tambahmenu','MerchantController@tambahmenu');
+

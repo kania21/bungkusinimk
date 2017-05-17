@@ -209,6 +209,17 @@ Navigation Bar Section
             </style>
         <body>
 
+        <div class="container">
+            <div class="row">
+                <div class ="col-md-1">
+                    <a class="btn btn-warning"></a>
+                </div>
+                <div class ="col-md-1">
+                    akjkjk
+                </div>
+            </div>
+        </div>
+
             <h1 class="my-4">PILIH MERCHANT</h1>
 
             <form role="search" method="get" action="" class="my-4">

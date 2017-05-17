@@ -4,11 +4,9 @@
 <head>
 
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, 
-initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>BUNGKUS.IN</title>
     <link rel="shortcut icon" href="{{url('temp/nasi.png')}}">
@@ -18,101 +16,75 @@ initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href="temp/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
-    <!-- Custom styles for this template 
+    <!-- Custom styles for this template -->
     <link href="temp/css/1-col-portfolio.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
--->
+
     <!-- Temporary navbar container fix -->
     <style>
         .navbar-toggler {
-          z-index: 1;
-      }
-
-      @media (max-width: 576px) {
-          nav > .container {
-            width: 100%;
+            z-index: 1;
         }
+
+        @media (max-width: 576px) {
+            nav > .container {
+                width: 100%;
+                
+            }
+        }
+        /*    --------------------------------------------------
+    :: General
+    -------------------------------------------------- */
+   /* body {
+        font-family: 'Open Sans', sans-serif;
+        color: #353535;
     }
+    .content h1 {
+        text-align: center;
+    }
+    .content .content-footer p {
+        color: #6d6d6d;
+        font-size: 12px;
+        text-align: center;
+    }
+    .content .content-footer p a {
+        color: inherit;
+        font-weight: bold;
+    }*/
 
-    thead {
-      border-style: solid;
-      border-color: black; 
-      border-top-width: 2px; 
-      border-left-width: 2px; 
-      border-right-width: 2px; 
-      border-bottom-width: 2px;
-  }
-
-  th{
-      border-style: solid !important;
-      border-color: black !important; 
-      border-top-width: 0px !important; 
-      border-left-width: 0px !important; 
-      border-right-width: 0px !important; 
-      border-bottom-width: 2px !important;
-  }
-
-  .borderLeft{
-      border-style: solid !important;
-      border-color: black !important; 
-      border-top-width: 0px !important; 
-      border-left-width: 2px !important; 
-      border-right-width: 0px !important; 
-      border-bottom-width: 0px !important;
-  }
-
-  .borderBottomRight{
-      border-style: solid !important;
-      border-color: black !important; 
-      border-top-width: 0px !important; 
-      border-left-width: 0px !important; 
-      border-right-width: 2px !important; 
-      border-bottom-width: 2px !important;
-  }
-
-  .borderBottomLeft{
-      border-style: solid !important;
-      border-color: black !important; 
-      border-top-width: 0px !important; 
-      border-left-width: 2px !important; 
-      border-right-width: 0px !important; 
-      border-bottom-width: 2px !important;
-  }
-  .panel {
-    border: 1px solid #ddd;
-    background-color: #fcfcfc;
-}
-.panel .btn-group {
-    margin-top: 10px;
-    margin-left: 30px;
-    margin-right:30px;
-    text-align: center;
-    width:inherit;
-    display: inline-block;
-}
-.panel .btn-group .btn {
-    transition: background-color .3s ease;
-}
-.table-filter {
-    background-color: #fff;
-    border-bottom: 1px solid #eee;
-    margin-left: auto;
-    margin-right: auto;
-}
-.table-filter tbody tr:hover {
-    cursor: pointer;
-    background-color: #eee;
-}
-.table-filter tbody tr td {
-    padding: 70px;
-    margin: auto;
-    vertical-align: middle;
-    border-top-color: #eee;
-}
+/*  --------------------------------------------------
+    :: Table Filter
+    -------------------------------------------------- */
+    .panel {
+        border: 1px solid #ddd;
+        background-color: #fcfcfc;
+    }
+    .panel .btn-group {
+        margin-top: 10px;
+        margin-left: 30%;
+        margin-right:30%;
+        text-align: center;
+        width:inherit;
+        display: inline-block;
+    }
+    .panel .btn-group .btn {
+        transition: background-color .3s ease;
+    }
+    .table-filter {
+        background-color: #fff;
+        border-bottom: 1px solid #eee;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .table-filter tbody tr:hover {
+        cursor: pointer;
+        background-color: #eee;
+    }
+    .table-filter tbody tr td {
+        padding: 70px;
+        margin: auto;
+        vertical-align: middle;
+        border-top-color: #eee;
+    }
     ./*table-filter tbody tr.selected td {
         background-color: #eee;
     }*/
@@ -159,35 +131,26 @@ initial-scale=1, maximum-scale=1, user-scalable=no">
     .table-filter .media .summary {
         font-size: 14px;
     }
-
-        /*table, thead, tbody, td, th {
-        border: 3px solid black;
-        }
-
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }*/
-    </style>
+</style>
 
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse" style="background-color: #ffce99">
+     <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse" style="background-color: #ffce99">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="container">
             <div class="thumbnail">
                 <a href="{{url('/bungkus')}}">
-                    <img src="{{url('temp/logo6.png')}}" alt="BUNGKUS.IN" href="{{url('/bungkus')}}">
+                <img src="{{url('temp/logo6.png')}}" alt="BUNGKUS.IN" href="{{url('/bungkus')}}">
                 </div>
                 <div class="collapse navbar-collapse" id="navbarExample">
 
                     <ul class="navbar-nav ml-auto">
-
+                        
                         <li class="nav-item active">
                             <a class="nav-link" href="{{url('/history')}}">History Pesanan</a>
                         </li>
@@ -212,163 +175,120 @@ initial-scale=1, maximum-scale=1, user-scalable=no">
 
             <section class="content">
                 <h1>History Pemesanan</h1><br>
-                <div class="pull-right">
-                <h5>*Difilter berdasarkan</h5>
-                    <div class="btn-group text-center">
-                      <button type="button" class="btn btn-warning btn-filter" data-target="proses">Dalam Proses</button>
-                      <button type="button" class="btn btn-success btn-filter" data-target="selesai">Sudah Selesai</button>
-                      <button type="button" class="btn btn-danger btn-filter" data-target="batal">Dibatalkan</button>
-                      <button type="button" class="btn btn-default btn-filter" data-target="all">All</button>
-                  </div>
-              </div> <br>
-              <br>
-
-              <div class="col-md-12 col-md-offset-2">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <div class="pull-right" style="text-align:center">
-                            <div class="btn-toolbar"  aria-label="Filter by">
-                            </div>
-                        </div>
-                    </div><br>
-                    <div class="container center">
-                        <table class="table table-filter center table-responsive table-striped table-condensed table-hover">
-                            <tbody>
-                                <tr data-status="selesai">
-                                    <td>
-                                        <div class="row">
-                                            <div class="media">
-                                                <div class="col-sm col-offset-2">
+                <div class="col-md-12 col-md-offset-2">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="pull-right" style="text-align:center">
+                                <div class="btn-toolbar"  aria-label="Filter by">
+                                    <button type="button" class="btn btn-warning btn-filter" data-target="proses">Dalam Proses</button>
+                                    <button type="button" class="btn btn-success btn-filter" data-target="selesai">Sudah Selesai</button>
+                                    <button type="button" class="btn btn-danger btn-filter" data-target="batal">Dibatalkan</button>
+                                    <button type="button" class="btn btn-default btn-filter" data-target="all">All</button>
+                                </div>
+                            </div><br>
+                            <div class="container">
+                                <table class="table table-filter center">
+                                    <tbody>
+                                        <tr data-status="selesai">
+                                            <td>
+                                                <div class="media">
                                                     <a href="#" class="pull-left">
-                                                        <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/2.jpg')}}" style="width:330px;height:195px;">
+                                                        <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/2.jpg')}}" style="width:220px;height:130px;">
                                                     </a>
-                                                </div>
-                                                <div class="col-sm col-offset-1">
                                                     <div class="media-body">
-                                                        <span class="media-meta pull-right">ID pesanan : PS001</span></br>
                                                         <span class="media-meta pull-right">8 April 2017</span>
                                                         <h3 class="title">
                                                             Pentol Gilaaa
                                                             <span class="pull-right selesai">(Sudah Selesai)</span>
                                                         </h3>
                                                         <p>Jl.Keputih Raya no.3</p>
+                                                       
                                                     </div>
-
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
+                                            </td>
+                                        </tr>
 
-                                <tr data-status="proses">           
-                                    <td>
-                                        <div class="row">                                    
+                                        <tr data-status="proses">           
+                                        <td>
                                             <div class="media">
-                                                <div class="col-sm col-offset-2">
-                                                    <a href="#" class="pull-left">
-                                                        <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/3.jpg')}}" style="width:330px;height:195px;">
-                                                    </a>
-                                                </div>
-                                                <div class="col-sm col-offset-1">
-                                                    <div class="media-body">
-                                                        <span class="media-meta pull-right">ID pesanan : PS002</span></br>
-                                                        <span class="media-meta pull-right">2 April 2017</span>
-                                                        <h4 class="title">
-                                                            Ayam Geprek
-                                                            <span class="pull-right proses">(Dalam Proses)</span>
-                                                        </h4>
-                                                        <p>Jl.Keputih Raya no.3</p>
-                                                    </div>
+                                                <a href="#" class="pull-left">
+                                                <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/3.jpg')}}" style="width:220px;height:130px;"">
+                                                </a>
+                                                <div class="media-body">
+                                                    <span class="media-meta pull-right">2 April 2017</span>
+                                                    <h4 class="title">
+                                                        Ayam Geprek
+                                                        <span class="pull-right proses">(Dalam Proses)</span>
+                                                    </h4>
+                                                   <p>Jl.Keputih Raya no.3</p>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-
-                                <tr data-status="batal">
-                                    <td>
-                                        <div class="row">                                    
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr data-status="batal">
+                                        <td>
                                             <div class="media">
-                                                <div class="col-sm col-offset-2">
-                                                    <a href="#" class="pull-left">
-                                                        <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/4.jpg')}}" style="width:330px;height:195px;">
-                                                    </a>
-                                                </div>
-                                                <div class="col-sm col-offset-1">
-                                                    <div class="media-body">
-                                                        <span class="media-meta pull-right">ID pesanan : PS003</span></br>
-                                                        <span class="media-meta pull-right">29 Maret 2017</span>
-                                                        <h4 class="title">
-                                                            Chicken Pok-Pok
-                                                            <span class="pull-right batal">(Dibatalkan)</span>
-                                                        </h4>
-                                                        <p>Jl.Keputih Raya no.3</p>
-                                                    </div>
+                                                <a href="#" class="pull-left">
+                                                    <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/4.jpg')}}" style="width:220px;height:130px;"">
+                                                </a>
+                                                <div class="media-body">
+                                                    <span class="media-meta pull-right">29 Maret 2017</span>
+                                                    <h4 class="title">
+                                                        Chicken Pok-Pok
+                                                        <span class="pull-right batal">(Dibatalkan)</span>
+                                                    </h4>
+                                                    <p>Jl.Keputih Raya no.3</p>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-
-                                <tr data-status="selesai" class="selected">
-                                    <td>
-                                        <div class="row">                                    
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr data-status="selesai" class="selected">
+                                        <td>
                                             <div class="media">
-                                                <div class="col-sm col-offset-2">
-                                                    <a href="#" class="pull-left">
-                                                        <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/2.jpg')}}" style="width:330px;height:195px;">
-                                                    </a>
-                                                </div>
-                                                <div class="col-sm col-offset-1">
-                                                    <div class="media-body">
-                                                        <span class="media-meta pull-right">ID pesanan : PS004</span></br>
-                                                        <span class="media-meta pull-right">27 Maret 2017</span>
-                                                        <h4 class="title">
-                                                            Pentol Gilaaa
-                                                            <span class="pull-right selesai">(Sudah Selesai)</span>
-                                                        </h4>
-                                                        <p>Jl.Keputih Raya no.3</p>
-                                                    </div>
+                                                <a href="#" class="pull-left">
+                                                    <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/2.jpg')}}" style="width:220px;height:130px;"">
+                                                </a>
+                                                <div class="media-body">
+                                                    <span class="media-meta pull-right">27 Maret 2017</span>
+                                                    <h4 class="title">
+                                                        Pentol Gilaaa
+                                                        <span class="pull-right selesai">(Sudah Selesai)</span>
+                                                    </h4>
+                                                   <p>Jl.Keputih Raya no.3</p>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-
-                                <tr data-status="proses">
-                                    <td>
-                                        <div class="row">                                    
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr data-status="proses">
+                                        <td>
                                             <div class="media">
-                                                <div class="col-sm col-offset-2">
-                                                    <a href="#" class="pull-left">
-                                                        <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/1.jpg')}}" style="width:330px;height:195px;">
-                                                    </a>
-                                                </div>
-                                                <div class="col-sm col-offset-1">
-                                                    <div class="media-body">
-                                                        <span class="media-meta pull-right">ID pesanan : PS005</span></br>
-                                                        <span class="media-meta pull-right">25 Maret 2017</span>
-                                                        <h3 class="title">
-                                                            Sego Njamoer
-                                                            <span class="pull-right proses">(Dalam Proses)</span>
-                                                        </h3>
-                                                        <p>Jl.Keputih Raya no.3</p>
-                                                    </div>
+                                                <a href="#" class="pull-left">
+                                                    <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/1.jpg')}}" style="width:220px;height:130px;"">
+                                                </a>
+                                                <div class="media-body">
+                                                    <span class="media-meta pull-right">25 Maret 2017</span>
+                                                    <h3 class="title">
+                                                        Sego Njamoer
+                                                        <span class="pull-right proses">(Dalam Proses)</span>
+                                                    </h3>
+                                                   <p>Jl.Keputih Raya no.3</p>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
+
             </div>
+        </section>
 
-        </div>
-    </section>
-
-</div>
+    </div>
 </div>
 
 <!-- Pagination -->
@@ -385,25 +305,23 @@ initial-scale=1, maximum-scale=1, user-scalable=no">
 <script src="temp/vendor/jquery/jquery.min.js"></script>
 <script src="temp/vendor/tether/tether.min.js"></script>
 <script src="temp/vendor/bootstrap/js/bootstrap.min.js"></script>
-<script src="Scripts/jquery-1.9.1.js"></script>
-    <script src="Scripts/bootstrap.js"></script>
 <script type="text/JavaScript">
     // $(document).ready(function () {
 
 
         $('.btn-filter').on('click', function () {
-    // alert('aa');
-    var $target = $(this).data('target');
-    // alert($target);
-    if ($target != 'all') {
-        $('.table tr').css('display', 'none');
-        $('.table tr[data-status="' + $target + '"]').fadeIn('slow');
-    } else {
-        $('.table tr').css('display', 'none').fadeIn('slow');
-    }
-});
+            // alert('aa');
+          var $target = $(this).data('target');
+          // alert($target);
+          if ($target != 'all') {
+            $('.table tr').css('display', 'none');
+            $('.table tr[data-status="' + $target + '"]').fadeIn('slow');
+        } else {
+            $('.table tr').css('display', 'none').fadeIn('slow');
+        }
+        });
 
-// });
+    // });
 </script>
 </body>
 

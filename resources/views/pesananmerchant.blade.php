@@ -3,12 +3,10 @@
 
 <head>
 
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, 
-initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
   <title>BUNGKUS.IN</title>
   <link rel="shortcut icon" href="{{url('temp/nasi.png')}}">
@@ -174,12 +172,19 @@ initial-scale=1, maximum-scale=1, user-scalable=no">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="container">
-            <img src="{{url('temp/logo6.png')}}" alt="BUNGKUS.IN">
+           <a href="{{url('/dashmerch')}}">
+            <img src="{{url('temp/logo6.png')}}" href="{{url('/dashmerch')}}" alt="BUNGKUS.IN">
             <div class="collapse navbar-collapse" id="navbarExample">
 
                 <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                            <a class="nav-link" href="#">Welcome, Tiara! <span class="sr-only">(current)</span></a>
+                        </li>
+                     <li class="nav-item active">
+                        <a class="nav-link" href="{{url('/tambahmenu')}}">Tambah Menu <span class="sr-only">(current)</span></a>
+                    </li>   
                     <li class="nav-item active">
-                        <a class="nav-link" href="{{url('/addmenu')}}">Edit Menu <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{url('/dashmerch')}}">Edit Menu <span class="sr-only">(current)</span></a>
                     </li>
                  <!--    <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
@@ -211,7 +216,7 @@ Navigation Bar Section
     </div>
   </div> 
   <hr class="soften"/>	
-  <table class="table table-responsive table-condensed table-hover">
+  <table class="table table-condensed table-bordered">
     <thead>
      <tr>
       <th>No. Pesanan</th>
