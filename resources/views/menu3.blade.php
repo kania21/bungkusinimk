@@ -9,6 +9,7 @@
     <meta name="author" content="">
 
     <title>BUNGKUS.IN</title>
+    <link rel="shortcut icon" href="{{url('temp/nasi.png')}}">
 
     <!-- Bootstrap core CSS -->
     <link href="{{url('temp/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -72,7 +73,7 @@
                     <a href="#"><img class="card-img-top img-fluid" style="width:400px;height:260px;" src="{{url('/img/ayamgeprek_15000.jpg')}}" alt=""></a>
                     <div class="card-block">
                         <h4 class="card-title"><a href="#">Ayam Geprek Bawang</a></h4>
-                        <h2 data-price='15000' id="price1">Rp . 15.000</h2>
+                        <h2 data-price='15000' id="price1">Rp 15.000</h2>
                         <a class="btn btn-primary kurang total" href="#" data-id="1">-</a>
                         <input type="text" value="0" name="jumlah[]" class="jumlah text-center" id="jumlah1" disabled>
                         <a class="btn btn-primary tambah total" href="#" data-id="1">+</a>
@@ -84,7 +85,7 @@
                     <a href="#"><img class="card-img-top img-fluid" style="width:400px;height:260px;" src="{{url('/img/ayamgeprekmozza_17000.jpg')}}" alt=""></a>
                     <div class="card-block">
                         <h4 class="card-title"><a href="#">Ayam Geprek Mozza</a></h4>
-                        <h2 data-price='17000' id="price2">Rp . 17.000</h2>
+                        <h2 data-price='17000' id="price2">Rp 17.000</h2>
                         <a class="btn btn-primary kurang total" href="#" data-id="2">-</a>
                         <input type="text" value="0" class="jumlah text-center" id="jumlah2" disabled>
                         <a class="btn btn-primary tambah total" href="#" data-id="2">+</a>
@@ -96,17 +97,13 @@
                     <a href="#"><img class="card-img-top img-fluid" style="width:400px;height:260px;" src="{{url('/img/ayamgeprekijo_15000.jpg')}}" alt=""></a>
                     <div class="card-block">
                         <h4 class="card-title" ><a href="#">Ayam Geprek Sambal Ijo</a></h4>
-                        <h2 data-price='15000' id="price3">Rp . 15.000</h2>
+                        <h2 data-price='15000' id="price3">Rp 15.000</h2>
                         <a class="btn btn-primary kurang total" href="#" data-id="3">-</a>
                         <input type="text" value="0" class="jumlah text-center" id="jumlah3" disabled>
                         <a class="btn btn-primary tambah total" href="#" data-id="3">+</a>
                     </div>
                 </div>
             </div>
-            
-
-            
-
 
             <hr>
 
@@ -114,7 +111,7 @@
 
         <div class="container">
             <div class="col-12 text-center">
-                <a type="button" class="btn btn-success" href="{{url('/hasil')}}">PESAN</a>
+                <a class="btn btn-success" style="background-color: #025aa5" href="{{url('/hasil')}}">PESAN</a>
             </div>
         </div>
 
