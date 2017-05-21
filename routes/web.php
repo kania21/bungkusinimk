@@ -14,7 +14,9 @@
 Route::get('/', 'MerchantController@index');
 
 route:: get('/menu/{id}','MenuController@index');
-#	route:: get('/menu','MenuController@index');
+route:: get('/best','MenuController@best');
+route:: get('/jam','MenuController@jam');
+route:: get('/budget','MenuController@budget');
 route:: get('/hasil','MenuController@hasil');
 route:: get('/bungkus','MerchantController@bungkus');
 route:: get('/form','MerchantController@form');
@@ -29,4 +31,5 @@ route:: get('/transfer','UserController@transfer');
 route:: get('/pulsa','UserController@pulsa');
 route:: get('/dashmerch','MerchantController@dashmerch');
 route:: get('/tambahmenu','MerchantController@tambahmenu');
+
 

@@ -83,78 +83,12 @@
  
         
         <br>
-        <div class="container">
-            <div class="row">
-                <a class="btn btn-warning">
-                 <img src="{{url('temp/bestseller.png')}}" style="width:30px;height: 30px;">Best Seller</a><br>
-            </div><br>
-            <div class="row" style="text-align: center">
-                 <div class="col-xs-6 col-md-3">
-                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/1.jpg')}}" style="width:100px;height:80px;" alt="">
-                 </div>  
-                 <div class="col-xs-6 col-md-3">
-                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/2.jpg')}}" style="width:100px;height:80px;" alt="">
-                 </div>
-                 <div class="col-xs-6 col-md-3">
-                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/3.jpg')}}" style="width:100px;height:80px;" alt="">
-                 </div>    
-            </div> 
-
-            <div class="row"> 
-                 <div class="col-md-3 col-md-offset-3">
-                 <a href="{{url('/best')}}" class="btn btn-default" style="text-align: right;"><img src="{{url('temp/next.png')}}" style="width:20px;height:20px;"> </a> 
-                 </div>
-            </div>   
-          <hr class="soften">
-
-          <div class="row">
-                <a class="btn btn-warning">
-                 <img src="{{url('temp/budget.png')}}" style="width:30px;height: 30px;">Budget</a><br>
-            </div><br>
-            <div class="row" style="text-align: center">
-                 <div class="col-xs-6 col-md-3">
-                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/1.jpg')}}" style="width:100px;height:80px;" alt="">
-                 </div>  
-                 <div class="col-xs-6 col-md-3">
-                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/2.jpg')}}" style="width:100px;height:80px;" alt="">
-                 </div>
-                 <div class="col-xs-6 col-md-3">
-                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/3.jpg')}}" style="width:100px;height:80px;" alt="">
-                 </div>        
-            </div>  
-            <div class="row"> 
-                 <div class="col-md-3 col-md-offset-3">
-                 <a href="{{url('/budget')}}" class="btn btn-default" style="text-align: right;"><img src="{{url('temp/next.png')}}" style="width:20px;height:20px;"> </a> 
-                 </div>
-            </div>    
-
-            <hr class="soften">
-            <div class="row">
-                <a class="btn btn-warning">
-                 <img src="{{url('temp/24.png')}}" style="width:30px;height: 30px;">24 Jam</a><br>
-            </div><br>
-            <div class="row" style="text-align: center">
-                 <div class="col-xs-6 col-md-3">
-                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/1.jpg')}}" style="width:100px;height:80px;" alt="">
-                 </div>  
-                 <div class="col-xs-6 col-md-3">
-                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/2.jpg')}}" style="width:100px;height:80px;" alt="">
-                 </div>
-                 <div class="col-xs-6 col-md-3">
-                     <img class="img-fluid rounded mb-3 mb-md-0" src="{{url('temp/3.jpg')}}" style="width:100px;height:80px;" alt="">
-                 </div>        
-            </div> 
-            <div class="row"> 
-                 <div class="col-md-3 col-md-offset-3">
-                 <a href="{{url('/jam')}}" class="btn btn-default" style="text-align: right;"><img src="{{url('temp/next.png')}}" style="width:20px;height:20px;"> </a> 
-                 </div>
-            </div>     
-
+        
             
             <hr class="soften">
 
 
-            <h1 class="my-4">SEMUA MERCHANT</h1>    
+            <h1 class="my-4">BEST SELLER</h1>    
    
 
 

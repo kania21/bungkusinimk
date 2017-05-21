@@ -113,7 +113,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6 portfolio-item">
+           <!--  <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="card h-100">
                     <a href="#"><img class="card-img-top img-fluid" style="width:400px;height:260px;" src="{{url('/img/pentolgilabanget_14000.jpg')}}" alt=""></a>
                     <div class="card-block">
@@ -124,7 +124,7 @@
                         <a class="btn btn-primary tambah total" href="#" data-id="4">+</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             
 

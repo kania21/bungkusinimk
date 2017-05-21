@@ -14,5 +14,16 @@ class MenuController extends Controller
     public function hasil(){
     	return view('hasil');
     }
+    public function best(){
+    	return view('best');
+    }
+    public function budget(){
+    	return view('budget');
+    }
+
+public function jam(){
+    	return view('jam');
+    }
+
 
 }
