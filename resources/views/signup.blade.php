@@ -122,7 +122,7 @@
                                 <a class="btn btn-link" href="{{ url('/password/reset') }}">
                                     Forgot Your Password?
                                 </a>
-                                <a class="btn btn-link" href="{{ url('/password/reset') }}">
+                                <a class="btn btn-link" href="{{ url('/daftar') }}">
                                     Sign Up
                                 </a>
                             </div>

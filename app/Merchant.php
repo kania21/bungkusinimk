@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Merchant extends Model
 {
-    protected $table ='Merchant';
-    protected $primaryKey = 'id_merchant';
-    public $timestamp = false;
+    protected $table ='merchant';
+    protected $primaryKey = 'id_merch';
+    public $timestamps = false;
     public $incrementing = false;
 }

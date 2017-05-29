@@ -31,5 +31,9 @@ route:: get('/transfer','UserController@transfer');
 route:: get('/pulsa','UserController@pulsa');
 route:: get('/dashmerch','MerchantController@dashmerch');
 route:: get('/tambahmenu','MerchantController@tambahmenu');
+route:: get('/withdraw','UserController@withdraw');
+route:: get('/withdrawget','UserController@withdrawget');
+route:: get('/daftar','UserController@daftar');
+
 
 
